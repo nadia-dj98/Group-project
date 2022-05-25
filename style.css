@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Poppins&family=Square+Peg&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.logo {
+    margin:15px;
+    padding: 0%;
+    
+}
+.nav ul {
+    margin: 0;
+    padding-top: 15px;
+}
+
+.nav li {
+    display: inline;
+    font-family: Poppins;
+}
+
+.nav a {
+    display: inline-block;
+    color: white;
+    padding: .5em;
+    text-decoration: none;
+
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    height: 30px;
+}
+
+.main-nav li {
+    padding: 5% 5%;
+    
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+.main-header {
+    background-color: rgb(231, 216, 216);
+    background-size: cover;
+    padding-bottom: 50px;
+    
+}
+
+
+
+#slider {
+    position: relative;
+    width: 200px;
+    height: 303px;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+}
+
+#slider ul {
+    position: relative;
+    list-style: none;
+    height: 100%;
+    width: 10000%;
+    padding: 0;
+    margin: 0;
+    transition: all 750ms ease;
+    left: 0;
+}
+
+#slider ul li {
+    position: relative;
+    height: 100%;
+    float: left;
+}
+
+#slider ul li img {
+    width: 200px;
+    height: 303px;
+}
+
+#slider #prev, #slider #next {
+   width: 20px;
+   height: 20px;
+   border-color: white;
+   position: absolute;
+   top: 50%;
+   margin-top: -8px;
+   visibility: hidden;
+   
+}
+
+#prev {
+   border-bottom: 4px solid;
+   border-left: 4px solid;
+   transform: rotate(45deg);
+   left: 10px;
+}
+
+   
+#next {
+   border-bottom: 4px solid;
+   border-left: 4px solid;
+   transform: rotate(-135deg);
+   right: 10px;
+}
+
+
+#slider #prev:hover, #slider #next:hover {
+    background-color: rgba (0, 0, 0, 0.5);
+    text-shadow: 0;
+}
+
+.flex-container {
+    display: flex;
+    margin: 30px 50px;
+    justify-content: center;
+    
+}
+
+.flex-child:first-child {
+    margin-right: 50px;
+    
+}
+
+  
+
+#intro-section {
+    
+    padding: 0px 20px;
+    background-color: rgb(231, 216, 216);
+    font-family: Poppins;
+    font-weight: normal;
+    text-align: center;
+    font-size: 1.0em;
+    width: 40vw;
+    height: 50vh;
+    border-radius: 15px;
+}
+
+.here {
+    text-decoration: none;
+    font-style: italic;
+    color: black;
+}
+
+#generator {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(231, 216, 216);
+    font-family: Poppins;
+    font-weight: normal;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 30px;
+    width: 30vw;
+    height: 70vh;
+    border-radius: 15px;
+    position: relative;
+    left: 35%;
+    
+}
+
+
+
+#airplane-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+    
+}
+button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+
+.footer {
+    margin: 20px;
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    padding: 10px;
+    width: 50px;
+    height:50px
+   
+}
+
+
+
+.scroll {
+    padding: 10px;
+    width: 50px;
+    height:50px;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+
+}
+
+.socials, .scroll-copyright {
+    display: inline-flex;
+    align-content: space-between;
+}
+
