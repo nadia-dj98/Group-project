@@ -193,6 +193,13 @@ button {
 	outline: inherit;
 }
 
+#generated-film {
+    font-size: 1em;
+    font-family: Poppins;
+    text-align: center;
+    font-weight: bold;
+
+}
 
 .footer {
     margin: 20px;
