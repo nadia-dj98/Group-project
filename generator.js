@@ -11,10 +11,10 @@ let filmTitleArray = ["A Separation", "About Elly", "Amores perros", "Amélie", 
 "Quo Vadis, Aida?", "Red Cliff", "Roma", "Spirited Away", "The Broken Circle Breakdown ", "The Class", "The Handmaiden",
 "The Salesman", "The Secret in Their Eyes", "The Square", "Two Days, One Night", "Wadjda", "Wild Tales"];
 
-let filmgenerate = filmTitleArray[Math.floor(Math.random() * filmTitleArray.length)];
+let filmGenerate = filmTitleArray[Math.floor(Math.random() * filmTitleArray.length)];
 
-function showFilm = () {
-  document.getElementById("generated-film").innerHTML = filmgenerate;
-}
+// function showFilm = () {
+//   document.getElementById("generated-film").innerHTML = filmGenerate;
+// }
 // document.getElementById("generated-film").innerHTML
 
