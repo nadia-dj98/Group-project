@@ -204,6 +204,14 @@ button {
     font-weight: bold;
 
 }
+#generate-link {
+    font-size: 1em;
+    color: blue;
+    font-family: Poppins;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
 
 .footer {
     margin: 20px;
@@ -235,4 +243,6 @@ button {
     display: inline-flex;
     align-content: space-between;
 }
+
+
 
