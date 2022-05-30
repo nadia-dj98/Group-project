@@ -1,47 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<!-- <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WanderlustWatch</title>
-    <link rel="stylesheet" href="C:\Users\SVara\OneDrive - Dunelm (Soft Furnishings) Ltd\!Business Improvement\Web Dev\Website\styling.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-
+    <link rel="stylesheet" type="text/css" href="style.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+</head> -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <title>Wanderlust Watch</title>
+  
 </head>
+ 
 <body>
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="./index.html">
-      <img src="C:\Users\SVara\OneDrive - Dunelm (Soft Furnishings) Ltd\!Business Improvement\Web Dev\Website\images\Wanderlust.jpg" alt="Wanderlust Watch" width="70px" height="70px">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="C:\Users\SVara\OneDrive - Dunelm (Soft Furnishings) Ltd\!Business Improvement\Web Dev\Website\index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="LINK">Our Mission</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="LINK">Picks By Country</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href= "C:\Users\SVara\OneDrive - Dunelm (Soft Furnishings) Ltd\!Business Improvement\Web Dev\Website\Contact.html">Contact Us</a></a>
-        </li>
-      </ul>
-      <span class='account-icon'><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person-video" viewBox="0 0 16 16">
-        <path d="M8 9.05a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
-        <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2Zm10.798 11c-.453-1.27-1.76-3-4.798-3-3.037 0-4.345 1.73-4.798 3H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-1.202Z"/>
-      </svg>
-    </div>
-  </nav>
+  <header class="main-header">
+    
+      <div id="logo">
+       <a href="index.html"><img src="./Images/logo2.jpg" alt="film logo" class="logo"></a>
+      </div> 
+      <div id="navigation">
+       <nav class="nav main-nav">
+              <ul>
+                  <li class="nav-item"><a href=index.html>Home</a></li>
+                  <li class="nav-item"><a href="#">About us</a></li>
+                  <li class="nav-item"><a href="ContactUs.html">Contact us</a></li>
+              </ul>
+       </nav>   
+      </div>
+  </header>   
 
   <div id="Contact-Us">
     <h2>Contact Us</h2>
@@ -75,23 +70,25 @@ Your message
   </div>
 </body>
 
-
-
-
 <footer>
-  <!-- ==== social icons ==== -->
-  <a href="https://twitter.com" target="_blank">
-    <span class='social-icon'><i class="fab fa-twitter"></i></span>
-  </a>
-  <a href="https://facebook.com" target="_blank">
-    <span class='social-icon'><i class="fab fa-facebook-f"></i></span>
-  </a>
-  <a href="https://instagram.com" target="_blank">
-    <span class='social-icon'><i class="fab fa-instagram"></i></span>
-  </a>
-  <a href="#top"><img src="Images/scroll.jpg" alt="scroll button" class="scroll"></a> 
-  <p id="copyright">&copy; 2022 Wanderlust Watch. </p>
-  </a>
+  <div class="footer">
+      <div class="socials">
+          <a href="https://twitter.com" target="_blank">
+              <span class='social-icon'><i class="fab fa-twitter"></i></span>
+          </a>
+          <a href="https://facebook.com" target="_blank">
+              <span class='social-icon'><i class="fab fa-facebook-f"></i></span>
+          </a>
+          <a href="https://instagram.com" target="_blank">
+              <span class='social-icon'><i class="fab fa-instagram"></i></span>
+          </a>
+      </div>
+      <div class="scroll-copyright">
+          <p class="copyright"> &copy; 2022 Wanderlust Watch. </p>
+          <a href="#top"><img src="Images/scroll.jpg" alt="scroll button" class="scroll"></a> 
+      </div>
+  </div> 
+
 </footer>
 
 </html>
