@@ -7,8 +7,9 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: #3AAFA9;
+    background-color: #17252A;
     font-family: Poppins;
+    color: #DEF2F1;
 }
 
 html {
@@ -16,10 +17,13 @@ html {
   }
 
 .logo {
-    margin:15px;
     padding: 0%;
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+        
 }
 
 
@@ -33,13 +37,14 @@ html {
     display: inline;
     font-family: Poppins;
     font-weight: bold;
+    
 
 }
 
 .nav a {
     display: inline-block;
-    /* color: black; */
-    color: #00c2cb;
+    /* color:#17252A; */
+    color: white;
     padding: .5em;
     text-decoration: none;
 
@@ -47,11 +52,15 @@ html {
 
 .main-nav {
     text-align: center;
-    font-size: 1.1em;
+    font-size: 2.1em;
     font-weight: lighter;
-    height: 30px;
-    background-image: "/images";
-        
+    height: 50px;
+    background-color: #2B7A78;
+    margin: auto;
+    height: 100px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.795);
+    margin-bottom: 80px;
+    
 }
 
 .main-nav li {
@@ -62,15 +71,7 @@ html {
 .nav a:hover {
     background-color: rgba(255, 255, 255, .3)
 }
-.main-header {
-    /* background-color: white; */
-    /* background-color: #17252A; */
-    background-color: #DEF2F1;
-    background-size: cover;
-    padding-bottom: 50px;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-    
-}
+
 
 
 
@@ -79,7 +80,7 @@ html {
     width: 200px;
     height: 303px;
     overflow: hidden;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.795);
     border-radius: 15px;
 }
 
@@ -150,13 +151,10 @@ html {
 }
 
   
-
 #intro-section {
     
     padding: 0px 20px;
     background-color: #2B7A78;
-    /* background-color: #DEF2F1; */
-    /* background-color: #17252A; */
     font-family: Poppins;
     font-weight: normal;
     text-align: center;
@@ -164,21 +162,24 @@ html {
     width: 40vw;
     height: 50vh;
     border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.795);
+    color: #DEF2F1;
+}
+
+h2, h3 {
+    color: white;
 }
 
 .here {
     text-decoration: none;
     font-style: italic;
-    color: black;
+    color: #DEF2F1;
 }
 
 #generator {
     margin: 0 auto;
     padding: 20px;
     background-color: #2B7A78;
-    /* background-color: #DEF2F1; */
-    /* background-color: #17252A; */
-    
     font-family: Poppins;
     font-weight: normal;
     text-align: center;
@@ -189,6 +190,7 @@ html {
     border-radius: 15px;
     position: relative;
     left: 35%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.795);
     
 }
 
@@ -220,13 +222,17 @@ button {
 }
 #generate-link {
     font-size: 1em;
-    color: blue;
+    color: #DEF2F1;
     font-family: Poppins;
     text-align: center;
     justify-content: center;
     font-weight: bold;
-    padding-top: 15px;
-    padding-left: 90px;
+    margin-top: 45px;
+    margin-left: 80px;
+    background-color: #2B7A78;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.795);
+    padding: 5px;
 }
 
 .footer {
@@ -264,14 +270,6 @@ button {
 
 /*  Saloni */
 
-.account-icon {
-    display: inline-flex;  /* allows use of "justify-content" and "align-items" properties */
-    width: 50px;
-    height: 50px;
-    color: #00c2cb;
-    justify-content: center;  /* horizontally centers the contents (the FontAwesome icon) */
-    align-items: center;  /* vertically centers the contents (the FontAwesome icon) */
-  }
 
   .Contact_form{
     padding: 200px 400px;
@@ -290,11 +288,13 @@ button {
     display: inline-flex;  /* allows use of "justify-content" and "align-items" properties */
     width: 50px;
     height: 50px;
-    color: #00c2cb;
+    color: #17252A;
     background-color: white;
     justify-content: center;  /* horizontally centers the contents (the FontAwesome icon) */
     align-items: center;  /* vertically centers the contents (the FontAwesome icon) */
     border-radius: 50%;  /* makes it round (circle if width and height are the same) */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.795);
+
   }
   
   .social-icon:hover {
