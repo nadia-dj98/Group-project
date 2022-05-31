@@ -46,8 +46,7 @@
 
   <div class="Contact_form" id="Contact_form"> 
     <fieldset>
-    <form name="Contact Form" action="C:\Users\SVara\OneDrive - Dunelm (Soft Furnishings) Ltd\!Business Improvement\Web Dev\Website\index.html" target="_self" 
-    onsubmit="return validateForm()" method="post"></form>
+    <form action="C:\Users\SVara\OneDrive - Dunelm (Soft Furnishings) Ltd\!Business Improvement\Web Dev\Website\index.html" target="_self"></formaction>
       <label for="name">Full Name:</label><br>
       <input type="text" id="name" name="name" required><br>
 
@@ -64,17 +63,9 @@ Your message
         </textarea> <br>
         <br>
 
-
-      <nav-button class="button">Submit</button>
-
-      <script>function validateForm() {
-          let x = document.forms["Contact Form"]["name"].value;
-          if (x == "") {
-            alert("Name must be filled out");
-            return false;
-          }
-        }
-      </script>
+      <a href="index.html">
+        <nav-button class="button" onclick="">Submit</button>
+      </a>
 
       
 
