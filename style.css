@@ -296,7 +296,7 @@ button {
 
 
   .Contact_form{
-    padding: 200px 400px;
+    padding: 20px 400px;
   }
   
   #Contact-Us{
@@ -308,7 +308,6 @@ button {
     color: #111;
   }
 
-<<<<<<< HEAD
 .button {
     display: inline-block;
     padding: 10px 20px;
@@ -356,6 +355,3 @@ button {
     text-decoration: none!important;
   
   }
-=======
-  
->>>>>>> parent of 706cb3d (contact form changes - mainly button styling)
