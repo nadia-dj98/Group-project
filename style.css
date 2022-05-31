@@ -305,12 +305,18 @@ button {
   }
   
   #Contact-Us{
+    font-size: 20pt;
     text-align: center;
-    color: aqua;
+    margin-left: 550px;
+    margin-right: 550px;
+    border-radius: 15px;
+    text-shadow: 0 0 15px #2B7A78;
+    letter-spacing: 5px;
+
   }
   
   fieldset{
-    color: #111;
+    color: #2B7A78;
   }
 
 .button {
