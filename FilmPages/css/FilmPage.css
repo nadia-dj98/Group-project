@@ -5,10 +5,13 @@
     font-family: Poppins;
 }
 
+
 html, body {
     margin: 0;
     padding: 0;
-
+    background-color: #17252A;
+    font-family: Poppins;
+    color: #DEF2F1;
 }
 
 html {
@@ -16,12 +19,15 @@ html {
   }
 
 .logo {
-    margin:15px;
     padding: 0%;
-    width: 100px;
-    height: 100px;
-    
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+        
 }
+
 
 
 .nav ul {
@@ -32,10 +38,14 @@ html {
 .nav li {
     display: inline;
     font-family: Poppins;
+    font-weight: bold;
+    
+
 }
 
 .nav a {
     display: inline-block;
+    /* color:#17252A; */
     color: white;
     padding: .5em;
     text-decoration: none;
@@ -44,9 +54,15 @@ html {
 
 .main-nav {
     text-align: center;
-    font-size: 1.1em;
+    font-size: 2.1em;
     font-weight: lighter;
-    height: 30px;
+    height: 50px;
+    background-color: #2B7A78;
+    margin: auto;
+    height: 100px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.795);
+    margin-bottom: 80px;
+    
 }
 
 .main-nav li {
@@ -57,43 +73,54 @@ html {
 .nav a:hover {
     background-color: rgba(255, 255, 255, .3)
 }
-.main-header {
-    background-color: rgb(0, 0, 0);
-    background-size: cover;
-    padding-bottom: 50px;
-    
-}
-
 
 h1 {
-    font-size: 50px;
+    font-size: 55px;
     text-align: center;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+    margin-left: 550px;
+    margin-right: 550px;
+    border-radius: 15px;
+    text-shadow: 0 0 15px #2B7A78;
+    letter-spacing: 5px;
 }
 
+.spans {
+    text-shadow: 0 0 10px #def2f1;
+    font-size: 30px;
+}
 
 .container{
     background-clip: text;
-    background-color: transparent;
+    /* background-color: transparent; */
+    background-color: #2B7A78;
     backdrop-filter: blur(5px);
     height: 700px;
     display: inline-flex;
-    width: 100%;
+    width: 90%;
     justify-content: space-evenly;
     align-items: center;
     margin-right: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.795);
+    border-radius: 15px;
+    margin: 75px;
+
 }
 
 .textcont {
-    background: rgba(0,0,0,0);
+    /* background: rgba(0,0,0,0); */
     display: inline-block;
     width: 450px;
     font-size: 25px;
     justify-content: center;
     align-content: center;
     text-align: justify;
-    
+    /* background-color: #2B7A78; */
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* box-shadow: 0 0 30px rgba(0, 0, 0, 0.795); */
 }
 th {
 
@@ -112,14 +139,18 @@ tr {
 #rating {
  text-align: center;
  font-weight: bold;
- font-size: 30px;
+ font-size: 20px;
+ letter-spacing: 3px;
 }
 .textcont2 {
-    background-color: transparent;
+    background-color: #2B7A78;
     display: flex;
     width: 400px;
     font-size: 18px;
     padding-left: 30px;
+    border-radius: 15px;
+    /* box-shadow: 0 0 30px rgba(0, 0, 0, 0.795); */
+    
 }
 
 .video {
@@ -155,8 +186,30 @@ tr {
 
 }
 
-.socials, .scroll-copyright {
+.scroll-copyright {
     display: inline-flex;
-    align-content: space-between;
+    align-content: right;
+    color: #DEF2F1;
+
 }
 
+.social-icon {
+    display: inline-flex;  /* allows use of "justify-content" and "align-items" properties */
+    width: 50px;
+    height: 50px;
+    color: #17252A;
+    background-color: white;
+    justify-content: center;  /* horizontally centers the contents (the FontAwesome icon) */
+    align-items: center;  /* vertically centers the contents (the FontAwesome icon) */
+    border-radius: 50%;  /* makes it round (circle if width and height are the same) */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.795);
+  }
+    
+  .social-icon:hover {
+    color: #222;  /* change color when hover over the link */
+  }
+  footer a {
+    margin: 5px;
+    text-decoration: none!important;
+    
+  }
