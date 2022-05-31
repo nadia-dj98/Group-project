@@ -1,5 +1,3 @@
-.button{
-    onclick=
+<button onclick="displayDate()">Try it</button>;
 
-    <a href=index.html></a>
-}
+   /* <a href=index.html></a>
