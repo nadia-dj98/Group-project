@@ -269,6 +269,7 @@ button {
     align-content: right;
 
 }
+<<<<<<< Updated upstream
 .social-icon {
     display: inline-flex;  /* allows use of "justify-content" and "align-items" properties */
     width: 50px;
@@ -289,6 +290,12 @@ button {
     margin: 5px;
     text-decoration: none!important;
   }
+=======
+
+
+/*  Saloni */
+
+>>>>>>> Stashed changes
 
 
 
@@ -296,16 +303,68 @@ button {
 
 
   .Contact_form{
-    padding: 200px 400px;
+    padding: 25px 400px;
+
   }
   
   #Contact-Us{
     text-align: center;
     color: aqua;
+    font-size: 20pt;
   }
   
   fieldset{
     color: #111;
   }
 
+<<<<<<< Updated upstream
   
+=======
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: solid;
+    outline: black;
+    border: 1px solid black;
+    color: black;
+    background-color: #2B7A78;
+    border-radius: 15px;
+    box-shadow: 0 5px #DEF2F1;
+  }
+  
+  .button:hover {
+      background-color: #3AAFA9;
+      border: 1px solid black;
+}
+  
+  .button:active {
+    background-color: #2B7A78;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    border: 1px solid black;
+  
+  }
+
+  .social-icon {
+    display: inline-flex;  /* allows use of "justify-content" and "align-items" properties */
+    width: 50px;
+    height: 50px;
+    color: #00c2cb;
+    background-color: white;
+    justify-content: center;  /* horizontally centers the contents (the FontAwesome icon) */
+    align-items: center;  /* vertically centers the contents (the FontAwesome icon) */
+    border-radius: 50%;  /* makes it round (circle if width and height are the same) */
+  }
+  
+  .social-icon:hover {
+    color: #222;  /* change color when hover over the link */
+  }
+  footer a {
+    margin: 5px;
+    text-decoration: none!important;
+  
+  }
+>>>>>>> Stashed changes
