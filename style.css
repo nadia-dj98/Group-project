@@ -16,6 +16,9 @@ html {
     scroll-behavior: smooth;
   }
 
+
+
+/* Nav bar css */
 .logo {
     padding: 0%;
     width: 80px;
@@ -25,8 +28,6 @@ html {
     left: 16px;
         
 }
-
-
 
 .nav ul {
     margin: 0;
@@ -43,7 +44,6 @@ html {
 
 .nav a {
     display: inline-block;
-    /* color:#17252A; */
     color: white;
     padding: .5em;
     text-decoration: none;
@@ -73,7 +73,7 @@ html {
 }
 
 
-
+/* Carrousel css */
 
 #slider {
     position: relative;
@@ -150,6 +150,7 @@ html {
     
 }
 
+/* Home page containers css */
   
 #intro-section {
     
@@ -195,7 +196,6 @@ h2, h3 {
 }
 
 
-
 #airplane-image {
     width: 200px;
     height: 200px;
@@ -235,6 +235,9 @@ button {
     padding: 5px;
 }
 
+/* Footer section css */
+
+
 .footer {
     margin: 20px;
     padding: 1px;
@@ -266,25 +269,7 @@ button {
     align-content: right;
 
 }
-
-
-/*  Saloni */
-
-
-  .Contact_form{
-    padding: 200px 400px;
-  }
-  
-  #Contact-Us{
-    text-align: center;
-    color: aqua;
-  }
-  
-  fieldset{
-    color: #111;
-  }
-
-  .social-icon {
+.social-icon {
     display: inline-flex;  /* allows use of "justify-content" and "align-items" properties */
     width: 50px;
     height: 50px;
@@ -303,5 +288,24 @@ button {
   footer a {
     margin: 5px;
     text-decoration: none!important;
-  
   }
+
+
+
+/*  Contact form css */
+
+
+  .Contact_form{
+    padding: 200px 400px;
+  }
+  
+  #Contact-Us{
+    text-align: center;
+    color: aqua;
+  }
+  
+  fieldset{
+    color: #111;
+  }
+
+  
