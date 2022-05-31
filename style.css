@@ -300,9 +300,9 @@ button {
   }
   
   #Contact-Us{
-    font-size: 40pt;
+    font-size: 20pt;
     text-align: center;
-    padding: 20px 400px;
+    padding: 20px;
     margin-left: 550px;
     margin-right: 550px;
     border-radius: 15px;
