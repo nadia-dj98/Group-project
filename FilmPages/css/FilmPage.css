@@ -206,19 +206,18 @@ tr {
     display: inline-flex;  /* allows use of "justify-content" and "align-items" properties */
     width: 50px;
     height: 50px;
-    color: #17252A;
+    color: #00c2cb;
     background-color: white;
     justify-content: center;  /* horizontally centers the contents (the FontAwesome icon) */
     align-items: center;  /* vertically centers the contents (the FontAwesome icon) */
     border-radius: 50%;  /* makes it round (circle if width and height are the same) */
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.795);
   }
-    
+  
   .social-icon:hover {
     color: #222;  /* change color when hover over the link */
   }
   footer a {
     margin: 5px;
     text-decoration: none!important;
-    
+  
   }
