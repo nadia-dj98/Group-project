@@ -176,7 +176,7 @@ tr {
 
 
 
-.scroll {
+/* .scroll {
     padding: 10px;
     width: 50px;
     height:50px;
@@ -184,6 +184,15 @@ tr {
     bottom: 0;
     right: 15px;
 
+} */
+.scroll {
+    padding: 5px;
+    width: 70px;
+    height:60px;
+    position: fixed;
+    bottom: 0;
+    right: 0px;
+    margin-right: none;
 }
 
 .scroll-copyright {
