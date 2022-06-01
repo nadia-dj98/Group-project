@@ -1,7 +1,7 @@
 
 //Carrousel slider script//
 var responsiveSlider = function() {
-
+     //determining a variable for each element
     var slider = document.getElementById("slider");
     var sliderWidth = slider.offsetWidth;
     var slideList = document.getElementById("slideWrap");
@@ -13,7 +13,8 @@ var responsiveSlider = function() {
     window.addEventListener('resize', function() {
       sliderWidth = slider.offsetWidth;
     });
-    
+    // the changes that will be made by clicking on 
+    //previous button will be stored in 'prevSlide'
     var prevSlide = function() {
       if(count > 1) {
         count = count - 2;
@@ -26,7 +27,8 @@ var responsiveSlider = function() {
         count++;
       }
     };
-    
+    // the changes that will be made by clicking on 
+    //next button will be stored in 'nextSlide'
     var nextSlide = function() {
       if(count < items) {
         slideList.style.left = "-" + count * sliderWidth + "px";
